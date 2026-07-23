@@ -1,4 +1,4 @@
-# 🚀 Proyecto Híbrido Big-Data Serverless: GPU, Spark & Actor Model
+##  Proyecto Híbrido Big-Data Serverless: GPU, Spark & Actor Model
 
 Este repositorio contiene la implementación completa de un **Sistema Híbrido de Procesamiento Big Data en Entornos Serverless**, diseñado para combinar la potencia de cómputo heterogéneo en GPU/CPU (CUDA & OpenMP), el procesamiento distribuido en masa (Apache Spark) y la orquestación asíncrona reactiva mediante el Modelo de Actores (Pykka / Akka Pattern).
 
