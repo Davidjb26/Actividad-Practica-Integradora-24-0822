@@ -46,3 +46,25 @@ El objetivo de esta solución es ofrecer un pipeline *serverless* altamente esca
                                             |                                |
                                             v                                v
                                    [ dataset_gpu.csv ] --------------> [ Spark Metrics ]
+
+```
+## 🔧 Requisitos Previos e Instalación
+
+Entorno Sugerido
+* Google Colab (con GPU Tesla T4) o Servidor Ubuntu Linux 20.04/22.04 LTS.
+* Python: 3.10+ / 3.12+
+* Java: OpenJDK 11 (Requerido por Apache Spark)
+* NVIDIA CUDA Toolkit: nvcc y controladores NVIDIA instalados.
+
+#### Dependencias de Software
+Para instalar las bibliotecas necesarias, ejecute:
+
+```text
+
+# Actualización del sistema e instalación de OpenJDK 11
+sudo apt-get update -qq
+sudo apt-get install -y openjdk-11-jdk-headless build-essential g++
+
+# Instalación de librerías Python necesarias
+pip install --upgrade pyspark pykka numpy
+```
